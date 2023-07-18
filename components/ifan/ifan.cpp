@@ -78,8 +78,8 @@ void IFan::set_off() {
 }
 void IFan::set_low() {
   digitalWrite(relay_1, LOW);
-  digitalWrite(relay_2, LOW);
-  digitalWrite(relay_3, HIGH);
+  digitalWrite(relay_2, HIGH);
+  digitalWrite(relay_3, LOW);
   beep();
 }
 void IFan::set_med() {
